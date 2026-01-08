@@ -1,0 +1,44 @@
+2025-01-26 03:04:09,450 [INFO] __main__: Starting Flask server on port 4000...
+2025-01-26 03:04:09,455 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://100.64.26.118:4000
+2025-01-26 03:04:09,455 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-01-26 03:04:24,893 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:04:24] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:04:24,900 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'storm'}
+2025-01-26 03:04:24,901 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:04:24,902 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:04:24] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:06:24,929 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:06:24] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:06:24,930 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:06:24] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:06:24,931 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'storm'}
+2025-01-26 03:06:24,931 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:06:24,932 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'storm'}
+2025-01-26 03:06:24,932 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:06:24] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:06:24,932 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:06:24,933 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:06:24] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:22,691 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:22] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:22,699 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:22] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:22,701 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'storm'}
+2025-01-26 03:07:22,703 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:07:22,702 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'storm'}
+2025-01-26 03:07:22,705 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:07:22,705 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:22] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:22,705 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:22] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:43,317 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:43] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:43,320 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'clear'}
+2025-01-26 03:07:43,320 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:07:43,320 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:43] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:48,190 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'storm'}
+2025-01-26 03:07:48,190 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:07:48,190 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:48] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:51,991 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:51] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:51,994 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'clear'}
+2025-01-26 03:07:51,995 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:07:51,995 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:51] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:52,947 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'storm'}
+2025-01-26 03:07:52,948 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:07:52,948 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:52] "POST /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:59,784 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:59] "OPTIONS /optimize HTTP/1.1" 200 -
+2025-01-26 03:07:59,788 [INFO] __main__: Received request data: {'start': [51.5074, -0.1278], 'end': [40.7128, -74.006], 'weather': 'clear'}
+2025-01-26 03:07:59,788 [INFO] __main__: Returning dummy optimized path: [[51.5074, -0.1278], [46.1101, -37.0669], [40.7128, -74.006]]
+2025-01-26 03:07:59,789 [INFO] werkzeug: 127.0.0.1 - - [26/Jan/2025 03:07:59] "POST /optimize HTTP/1.1" 200 -

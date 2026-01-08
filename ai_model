@@ -1,0 +1,90 @@
+ecosky-front
+├── eslint.config.mjs
+├── favicon.ico
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── assets
+│   │   └── patterns
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   ├── videos
+│   │   ├── ass.mp4
+│   │   └── labile.mp4
+│   └── window.svg
+├── src
+│   ├── app
+│   │   ├── (main)
+│   │   │   ├── dashboard
+│   │   │   │   └── page.tsx
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   ├── about
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   └── providers.tsx
+│   ├── components
+│   │   ├── FlightCard.tsx
+│   │   ├── FlightPathDetails.tsx
+│   │   ├── GlobeComponent.tsx
+│   │   ├── GridBackground.tsx
+│   │   ├── Navigation.tsx
+│   │   ├── ScrollPlane.tsx
+│   │   ├── StatsCard.tsx
+│   │   └── globals.css
+│   └── lib
+│       └── theme.ts
+├── tailwind.config.ts
+└── tsconfig.json
+ecosky-back
+├── __pycache__
+│   └── app.cpython-311.pyc
+├── ai_model
+│   ├── FlightEnv_test.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── flight_optimizer.cpython-311.pyc
+│   │   ├── inference.cpython-311.pyc
+│   │   ├── ingest_api.cpython-311.pyc
+│   │   ├── preprocess.cpython-311.pyc
+│   │   └── rl_env.cpython-311.pyc
+│   ├── app.py
+│   ├── flight_optimizer.py
+│   ├── inference.py
+│   ├── ingest_api.py
+│   ├── preprocess.py
+│   ├── rl_env.py
+│   ├── saved_models
+│   │   └── flight_optimizer
+│   │       ├── algorithm_state.pkl
+│   │       ├── policies
+│   │       │   └── default_policy
+│   │       │       ├── policy_state.pkl
+│   │       │       └── rllib_checkpoint.json
+│   │       └── rllib_checkpoint.json
+│   └── train_model.py
+├── app.log
+├── config.py
+├── data
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── ingest_api.cpython-311.pyc
+│   │   └── preprocess.cpython-311.pyc
+│   ├── ingest_api.py
+│   └── test_fetch_flight_data.py
+├── requirements.txt
+├── routes
+│   ├── __init__.py
+│   └── __pycache__
+│       ├── __init__.cpython-311.pyc
+│       └── flight_optimizer.cpython-311.pyc
+├── saved_models
+│   └── flight_optimizer_iter_10
+└── train_model.log

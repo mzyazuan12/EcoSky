@@ -1,0 +1,11 @@
+/* Plane styling */
+svg {
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.2));
+    color: #3182ce; /* Blue color */
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
